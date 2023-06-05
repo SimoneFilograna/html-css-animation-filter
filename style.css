@@ -83,7 +83,7 @@
 
 /* esercizio 6 */
 
-.ex-6-img, .ex-7-img {
+.ex-6-img {
     width: 500px;
 }
 
@@ -93,6 +93,16 @@
 
 
 /* esercizio 7  */
+
+.ex-7-img {
+    width: 500px;
+    transition: filter 2s linear;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(50%) hue-rotate(90deg);
+    
+}
 
 
 
@@ -331,11 +341,11 @@
         right: 80%;
     }
     50%{
-        bottom: 52px;
+        bottom: 55px;
         right: 80%;
     }
     75%{
-        bottom: 52px;
+        bottom: 55px;
         right: -10%;
     }
     90%{
